@@ -44,6 +44,8 @@ body{
 
 .portfolioContent{
   display: flex;
+  position: absolute;
+  right: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
 }
