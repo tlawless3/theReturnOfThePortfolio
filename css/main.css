@@ -1,0 +1,57 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.centerText {
+  margin: auto;
+  width: 400px;
+  white-space: nowrap;
+}
+
+#webDev{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -100px;
+  background-color: red;
+  z-index: -1;
+}
+
+.title{
+  display: flex;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.frontpageMenu{
+  display: flex
+  color: #ff0018;
+  font-size: 20px;
+  text-align: center;
+  overflow: scroll;
+  text-align: left;
+}
+
+.portfolioLink{
+  color: #ff0018;
+  cursor: pointer;
+}
+
+.contactLink{
+  color: red;
+  cursor: pointer;
+}
+
+.portfolioContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolioItem{
+  width: 300px;
+}
+
+.portfolioPhoto{
+  width: 300px;
+}
