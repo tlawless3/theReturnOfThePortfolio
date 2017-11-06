@@ -74,3 +74,27 @@ body{
 .returnHomePortfolio{
   color: #ff0018;
 }
+
+.contactContent{
+  position: absolute;
+  left: 150%;
+}
+
+.navbarContacts{
+  color: red;
+}
+
+.contactInfo{
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+}
+
+a {
+  color: black;
+}
+
+#portfolioButtonContacts{
+  margin-left: 20px;
+}

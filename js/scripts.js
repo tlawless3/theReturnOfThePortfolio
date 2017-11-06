@@ -6,7 +6,6 @@ $(".portfolioLink").click(function(){
   }, 500);
   setTimeout(function(){
     setTimeout(function(){
-      $(".centerText").css("display", "none");
       $(".navbarPortfolio").css("overflow", "visible");
     }, 500);
     $(".portfolioContent").animate({
@@ -27,7 +26,6 @@ $("#homeButtonPortfolio").click(function(){
     left: "100%",
   }, 500);
   setTimeout(function(){
-    $(".centerText").css("display", "flex");
     setTimeout(function(){
       $(".centerText").css("position", "static");
       $(".navbarPortfolio").css("overflow", "hidden");
@@ -37,3 +35,5 @@ $("#homeButtonPortfolio").click(function(){
     }, 500);
   }, 500)
 });
+
+//Concact Page
