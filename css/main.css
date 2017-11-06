@@ -48,6 +48,19 @@ body{
   right: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 50px;
+}
+
+.navbarPortfolio{
+  position: absolute;
+  right: 100%;
+  top: 0%;
+  cursor: pointer;
+  color: #ff0018;
+}
+
+#contactButtonPortfolio{
+  margin-left: 20px;
 }
 
 .portfolioItem{
@@ -56,4 +69,8 @@ body{
 
 .portfolioPhoto{
   width: 300px;
+}
+
+.returnHomePortfolio{
+  color: #ff0018;
 }
