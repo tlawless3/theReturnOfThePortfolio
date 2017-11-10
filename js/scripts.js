@@ -1,4 +1,6 @@
+
 //Home Page
+//cycles in portfolio page
 $(".portfolioLink").click(function(){
   $(".centerText").css("position", "absolute");
   $(".centerText").animate({
@@ -6,7 +8,7 @@ $(".portfolioLink").click(function(){
   }, 500);
   setTimeout(function(){
     $(".navbarPortfolio").css("display", "");
-    $(".centerText").css("display", "none");
+    $(".centerText").toggle();
     $(".portfolioContent").animate({
       right: "0%",
     }, 500);
@@ -22,10 +24,10 @@ $(".contactLink").click(function(){
     left: "150%",
   }, 500);
   setTimeout(function(){
-     $(".contactContent").css("display", "");
+    $(".contactContent").toggle();
     $(".centerText").css("display", "none");
     $(".contactContent").animate({
-      right: "0%",
+      left: "0%",
     }, 500);
   }, 500);
 });
@@ -39,7 +41,7 @@ $("#homeButtonPortfolio").click(function(){
     left: "100%",
   }, 500);
   setTimeout(function(){
-    $(".centerText").css("display", "");
+    $(".centerText").toggle();
     $(".navbarPortfolio").css("display", "none");
     setTimeout(function(){
       $(".centerText").css("position", "static");
