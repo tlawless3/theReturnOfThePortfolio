@@ -6,9 +6,7 @@ $(".portfolioLink").click(function(){
   }, 500);
   setTimeout(function(){
     $(".navbarPortfolio").css("display", "");
-    setTimeout(function(){
-      $(".centerText").css("display", "none");
-    }, 500);
+    $(".centerText").css("display", "none");
     $(".portfolioContent").animate({
       right: "0%",
     }, 500);
@@ -17,10 +15,19 @@ $(".portfolioLink").click(function(){
     }, 500);
   }, 500);
 });
-
-//TODO add code that shuffles the contact Link in and out
+//cycles in the contact page
 $(".contactLink").click(function(){
-
+  $(".centerText").css("position", "absolute");
+  $(".centerText").animate({
+    left: "150%",
+  }, 500);
+  setTimeout(function(){
+     $(".contactContent").css("display", "");
+    $(".centerText").css("display", "none");
+    $(".contactContent").animate({
+      right: "0%",
+    }, 500);
+  }, 500);
 });
 
 //Portfolio Page
@@ -33,9 +40,9 @@ $("#homeButtonPortfolio").click(function(){
   }, 500);
   setTimeout(function(){
     $(".centerText").css("display", "");
+    $(".navbarPortfolio").css("display", "none");
     setTimeout(function(){
       $(".centerText").css("position", "static");
-      $(".navbarPortfolio").css("display", "none");
     }, 500);
     $(".centerText").animate({
       left: "28%",

@@ -78,7 +78,7 @@ body{
 .contactContent{
   display: none;
   position: absolute;
-  left: 150%;
+  left: 100%;
 }
 
 .navbarContacts{
